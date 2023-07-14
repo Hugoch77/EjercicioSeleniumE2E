@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="tests" thread-count="5">
 
 	<test name="Test_Chrome">
-		<parameter name="Browser" value="Chrome"></parameter>
+		<parameter name="Browser" value="chrome"></parameter>
 		<parameter name="url" value="https://demo.guru99.com/selenium/newtours/"></parameter>
 		<classes>
 			<class name="Test.TestMercuryTours" />
