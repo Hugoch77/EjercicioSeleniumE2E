@@ -16,7 +16,7 @@ public class BeforeAfterClass {
 	@Parameters({ "Browser", "url" })
 	@BeforeTest
 	public void beforeTest(String browser, String url) {
-		if (browser.equalsIgnoreCase("chrome")) {
+		if (browser.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "D:\\Eclipse\\Projects\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Edge")) {
