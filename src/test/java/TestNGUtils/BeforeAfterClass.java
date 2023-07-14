@@ -9,9 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-import UtilitiesPackage.Utilities;
-
-public class BeforeAfterClass extends Utilities {
+public class BeforeAfterClass {
 
 	public WebDriver driver;
 	

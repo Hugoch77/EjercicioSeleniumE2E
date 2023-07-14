@@ -8,13 +8,14 @@ import Pages.RegisterPage;
 import TestNGUtils.BeforeAfterClass;
 
 public class TestMercuryTours extends BeforeAfterClass {
-
-	MTLandingPage landPage = new MTLandingPage(driver);
-	RegisterPage regPage = new RegisterPage(driver);
-	PostRegisterPage postRegPage = new PostRegisterPage(driver);
 	
 	@Test
 	public void testMercuryTours() {
+		
+		MTLandingPage landPage = new MTLandingPage(driver);
+		RegisterPage regPage = new RegisterPage(driver);
+		PostRegisterPage postRegPage = new PostRegisterPage(driver);
+		
 		landPage.clickRegisterBtn();
 		
 		regPage.inRegisterPageConfirmation();

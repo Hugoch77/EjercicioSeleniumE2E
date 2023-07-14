@@ -3,13 +3,15 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import TestNGUtils.BeforeAfterClass;
 import UtilitiesPackage.Utilities;
 
-public class RegisterPage extends BeforeAfterClass {
+public class RegisterPage extends Utilities {
 
+	WebDriver driver;
+	
 	@FindBy(name = "firstName")
 	private WebElement eleFirstName;
 
@@ -54,6 +56,7 @@ public class RegisterPage extends BeforeAfterClass {
 
 	public RegisterPage(WebDriver driver) {
 		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
 	
 	Utilities utils = new Utilities();

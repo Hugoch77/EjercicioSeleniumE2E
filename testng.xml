@@ -9,5 +9,13 @@
 			<class name="Test.TestMercuryTours" />
 		</classes>
 	</test>
+	
+	<test name="Test_Edge">
+		<parameter name="Browser" value="edge"></parameter>
+		<parameter name="url" value="https://demo.guru99.com/selenium/newtours/"></parameter>
+		<classes>
+			<class name="Test.TestMercuryTours" />
+		</classes>
+	</test>
 
 </suite> 

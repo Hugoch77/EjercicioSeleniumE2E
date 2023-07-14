@@ -3,18 +3,21 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import TestNGUtils.BeforeAfterClass;
 import UtilitiesPackage.Utilities;
 
-public class PostRegisterPage extends BeforeAfterClass {
+public class PostRegisterPage extends Utilities {
 
+	WebDriver driver;
+	
 	@FindBy(xpath = "//font[contains(text(),'Thank you for registering')]")
 	private WebElement messageConfirm;
 
 	public PostRegisterPage(WebDriver driver) {
 		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
 	
 	Utilities utils = new Utilities();
