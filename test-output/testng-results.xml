@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-14T02:29:14Z" name="Suite" finished-at="2023-07-14T02:29:20Z" duration-ms="5586">
+  <suite started-at="2023-07-14T02:34:12Z" name="Suite" finished-at="2023-07-14T02:34:23Z" duration-ms="10813">
     <groups>
     </groups>
-    <test started-at="2023-07-14T02:29:14Z" name="Test_Chrome" finished-at="2023-07-14T02:29:17Z" duration-ms="2901">
+    <test started-at="2023-07-14T02:34:12Z" name="Test_Chrome" finished-at="2023-07-14T02:34:15Z" duration-ms="3033">
       <class name="Test.TestMercuryTours">
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:29:14Z" name="beforeTest" finished-at="2023-07-14T02:29:16Z" duration-ms="1611" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:34:12Z" name="beforeTest" finished-at="2023-07-14T02:34:14Z" duration-ms="1642" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
             <param index="1">
@@ -23,23 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testMercuryTours()[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:29:16Z" name="testMercuryTours" finished-at="2023-07-14T02:29:17Z" duration-ms="1204" status="PASS">
+        <test-method signature="testMercuryTours()[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:34:14Z" name="testMercuryTours" finished-at="2023-07-14T02:34:15Z" duration-ms="1304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMercuryTours -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:29:17Z" name="afterTest" finished-at="2023-07-14T02:29:17Z" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.TestMercuryTours@1329eff]" started-at="2023-07-14T02:34:15Z" name="afterTest" finished-at="2023-07-14T02:34:15Z" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Test.TestMercuryTours -->
     </test> <!-- Test_Chrome -->
-    <test started-at="2023-07-14T02:29:17Z" name="Test_Edge" finished-at="2023-07-14T02:29:20Z" duration-ms="2649">
+    <test started-at="2023-07-14T02:34:12Z" name="Test_Edge" finished-at="2023-07-14T02:34:23Z" duration-ms="10813">
       <class name="Test.TestMercuryTours">
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:29:17Z" name="beforeTest" finished-at="2023-07-14T02:29:18Z" duration-ms="1324" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:34:12Z" name="beforeTest" finished-at="2023-07-14T02:34:15Z" duration-ms="3147" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -51,11 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testMercuryTours()[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:29:18Z" name="testMercuryTours" finished-at="2023-07-14T02:29:20Z" duration-ms="1283" status="PASS">
+        <test-method signature="testMercuryTours()[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:34:15Z" name="testMercuryTours" finished-at="2023-07-14T02:34:16Z" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMercuryTours -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:29:20Z" name="afterTest" finished-at="2023-07-14T02:29:20Z" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.TestMercuryTours@4da4253]" started-at="2023-07-14T02:34:16Z" name="afterTest" finished-at="2023-07-14T02:34:23Z" duration-ms="6466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -33,6 +33,7 @@ public class BeforeAfterClass {
 	public void afterTest() {
 		driver.manage().deleteAllCookies();
 		driver.close();
+		driver.quit();;
 		
 		System.out.println("Test concluded");
 		
